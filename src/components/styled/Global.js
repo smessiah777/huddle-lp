@@ -1,6 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
-
-
+import { createGlobalStyle } from "styled-components";
 
 const Global = createGlobalStyle`
 // Reset : Start
@@ -74,10 +72,19 @@ const Global = createGlobalStyle`
         font-family: 'Open Sans', sans-serif;
     }
 
+    a{
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+
+        @media (max-width: 480px) {
+            display:flex;
+            justify-content: center;
+        }
+
+    }
 
 
-`
 
+`;
 
-
-export default Global
+export default Global;

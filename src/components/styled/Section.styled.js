@@ -12,7 +12,12 @@ export const Section = styled.section`
   width: 100%;
   height: 100vh;
 
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    background-size: cover;
+  }
+
   @media (max-width: 480px) {
     background-image: url(${bgMobile});
+    background-size: contain;
   }
 `;
