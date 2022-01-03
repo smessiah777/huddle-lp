@@ -4,8 +4,6 @@
  
 </p>
 
-<h1 align="center"> Huddle Landing Page </h1>
-
 ## Overview
 
 Landing page built with Gatsby
